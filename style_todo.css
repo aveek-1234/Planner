@@ -1,0 +1,120 @@
+body {
+	background:  grey;
+    background-image: url(bg1.jpg);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    background-size: 100% 100%;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+#time{
+    font-size: 30px;
+    background: transparent;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+h2 {
+	color: magenta;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFCD5D;
+}
+
+#second {
+	color: #51DF70;
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color: aqua;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: pink;
+	color: #FFCD5D;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: darkblue;
+	text-transform: capitalize;
+	font-weight: 400;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: magenta;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: grey;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border:none;
+	float: right;
+	color: red;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 50%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	background: rgb(30, 146, 55); 
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
